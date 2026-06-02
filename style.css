@@ -1,0 +1,152 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8f9fa;
+}
+
+/* Navbar */
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Home Hero Section */
+
+.hero {
+  height: 90vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("images/hero.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/* Why Choose Us */
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+/* Menu Page */
+
+.menu-item {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.menu-item h2 {
+  margin-bottom: 15px;
+}
+
+.menu-item p {
+  line-height: 1.8;
+  color: #555;
+}
+
+/* About Page */
+
+.about-img {
+  border-radius: 15px;
+}
+
+section p {
+  line-height: 1.8;
+}
+
+/* Contact Page */
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  padding: 12px;
+}
+
+.btn-warning {
+  padding: 10px 25px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 30px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .menu-item {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
